@@ -1,0 +1,114 @@
+:root{
+
+    /*Cores*/
+
+--color-1: #fff;
+--color-2: #141414;
+
+--sty-1: #fa0baa !important;
+--sty-2: #fa0baa !important;
+--sty-3: #fa0baa !important;
+--sty-4: #fa0baa !important;
+--sty-5: #fa0baa !important; 
+--sty-6: #fa0baa !important; 
+
+
+        /* Sizes */ 
+
+       --text: 15px; 
+
+}
+
+
+
+body {
+font-family: var(--font);
+margin: 0;
+padding: 0;
+background-color: var(--color-1);
+
+}
+
+.sty-1{ color: var(--sty-1); }
+.sty-2{ color: var(--sty-2); }
+.sty-3{ color: var(--sty-3); }
+.sty-4{ color: var(--sty-4); }
+.sty-5{ color: var(--sty-5); }
+.sty-6{ color: var(--sty-6); }
+
+
+.header .nav-menu .menu{
+     list-style: none;
+     margin: 0;
+     padding: 0;
+     text-align: left;
+     margin-left: -40px;
+}
+
+.header .nav-menu li{
+    display: block;
+}
+
+.header .nav-menu li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: -20px;
+    
+}
+
+.header .nav-menu .menu li{
+    float: left;
+}
+
+.header .nav-menu .menu li a{
+      font-size: 19px;
+      font-weight: 700;
+      margin-left: 19px;
+}
+
+.header .nav-menu .menu li::first-letter a{
+     margin-left: 0;
+    
+}
+
+header{
+    color: whitesmoke;
+    background-color: whitesmoke; 
+    border: 20px solid whitesmoke;
+
+}
+
+
+.cabecalho {
+
+    font-family: 'Raleway', sans-serif;
+    border: 02px solid rgb(255, 174, 224);
+    background-color: rgb(255, 174, 224);
+    color: rgb(250, 0, 187);
+    text-align: center;
+    
+}
+
+.magem img{
+
+    width: 1350px;
+    text-align: center
+
+}
+
+.texto  {
+
+    text-align: justify; 
+    margin-top: 12px; 
+    margin-bottom: 12px;
+
+}
+
+.h2 {
+
+    font-family: 'Barlow Condensed', sans-serif;
+    margin-top: 30px;
+
+
+}
